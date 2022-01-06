@@ -14,7 +14,7 @@ const AboutMe = () => {
     }, [])
     return (
         <><Navbar></Navbar>
-            <div data-aos="flip-down" id="about" className="container p-11 animate__fadeInDown bg-gray-900 text-white md-container sm-container mt-60  mx-auto">
+            <div data-aos="flip-down" id="about" className="container p-11 animate__fadeInDown bg-gray-100 text-gray-700 md-container sm-container mt-60  mx-auto">
 
                 <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">About Me</h1>
                 <h1 className="animate-bounce text-3xl"> Hello There!!!!</h1>

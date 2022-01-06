@@ -16,9 +16,7 @@ const Header = () => {
         <div className="text-center">
 
             <Navbar></Navbar>
-
             <Banner></Banner>
-            {/* <AboutMe></AboutMe> */}
             <Projects ></Projects>
             <Skills></Skills>
             <Contact></Contact>

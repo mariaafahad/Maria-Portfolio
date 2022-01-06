@@ -13,16 +13,16 @@ const Banner = () => {
     return (
         <>
 
-            <div id="banner" class="h-full flex  items-center px-6 lg:px-32  text-white relative p-8">
+            <div id="banner" class="h-full flex  items-center px-6 lg:px-32  text-gray-700 relative p-8">
 
                 <div data-aos="fade-left"
                     data-aos-anchor="#example-anchor"
                     data-aos-offset="500"
                     data-aos-duration="3000" class="w-full md:w-9/12 xl:w-8/12 text-left"
                 >
-                    <ParticleBackgroud />
+
                     <span data-aos="fade-up " class="animate__zoomIn font-bold uppercase tracking-widest">Hello, I'm</span>
-                    <h1 data-aos="fade-right" class="text-3xl lg:text-7xl font-bold text-indigo-500">
+                    <h1 data-aos="fade-right" class="text-3xl lg:text-7xl font-bold text-gray-900">
                         Maria Kamal
                     </h1>
 
@@ -31,7 +31,7 @@ const Banner = () => {
                         <TypeWriterEffect
                             textStyle={{
                                 fontFamily: 'Red Hat Display',
-                                color: '#fff',
+                                color: 'black',
                                 fontWeight: 600,
                                 fontSize: '2.5em',
                             }}

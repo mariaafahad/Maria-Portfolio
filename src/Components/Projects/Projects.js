@@ -51,14 +51,14 @@ const Projects = () => {
     ]
     return (
         <div id="projects" className="pt-12 mt-72">
-            <section className="text-gray-400 bg-gray-900 body-font md:flex-shrink-0 w-full md:w-full sm:min-w-0">
+            <section className="text-gray-700 bg-gray-100 body-font md:flex-shrink-0 w-full md:w-full sm:min-w-0">
                 <div className="container px-5 py-4 mx-auto text-center lg:px-40">
                     <div data-aos="zoom-in-up" className="flex flex-col md:flex-shrink-0 w-full md:w-full sm:min-w-0 mb-20">
 
-                        <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
+                        <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-gray-900">
                             Apps I've Built
                         </h1>
-                        <h3 className="lg:w-2/3 mx-auto leading-relaxed font-medium text-white">
+                        <h3 className="lg:w-2/3 mx-auto leading-relaxed font-medium text-gray-900">
                             This are the Projects I've Built.Cliking image you can see the Live site.
                         </h3>
                     </div>

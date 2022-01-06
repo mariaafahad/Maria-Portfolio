@@ -80,14 +80,14 @@ const Skill = () => {
             data-aos-easing="ease-in-sine" id="skill-section" className="px-40 skill">
 
 
-            <p className="d-flex align-items-center text-4xl text-blue-200">My Skills</p>
+            <p className="d-flex align-items-center text-4xl text-indigo-900 underline underline-offset-2 m-6">My Skills</p>
 
 
-            <button onClick={handleWeb} className={webStyle ? "btn btn-success my-2 my-sm-0 btn-style text-blue-400" : "btn btn-outline-success my-2 my-sm-0 btn-style text-white"} >Web</button>
+            <button onClick={handleWeb} className={webStyle ? "btn btn-success my-2 my-sm-0 btn-style text-gray-900 text-3xl" : "btn btn-outline-success my-2 my-sm-0 btn-style text-gray-900 text-3xl border-b-4 rounded-md p-2"} >Web</button>
             <br />
-            <button onClick={handleProgramming} className={progStyle ? "btn btn-success my-2 my-sm-0 btn-style text-blue-400" : "btn btn-outline-success my-2 my-sm-0 btn-style text-white"}>Programming</button>
+            <button onClick={handleProgramming} className={progStyle ? "btn btn-success my-2 my-sm-0 btn-style text-gray-700 text-3xl" : "btn btn-outline-success my-2 my-sm-0 btn-style text-gray-900 text-3xl border-b-4 rounded-md p-2"}>Programming</button>
             <br />
-            <button onClick={handleTools} className={toolsStyle ? "btn btn-success my-2 my-sm-0 btn-style text-blue-400" : "btn btn-outline-success my-2 my-sm-0 btn-style text-white"}>Tools</button>
+            <button onClick={handleTools} className={toolsStyle ? "btn btn-success my-2 my-sm-0 btn-style text-gray-700 text-3xl" : "btn btn-outline-success my-2 my-sm-0 btn-style text-gray-900 text-3xl border-b-4 rounded-md p-2"}>Tools</button>
 
             <div className="row">
                 {
