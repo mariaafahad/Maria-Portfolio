@@ -13,7 +13,7 @@ const ProjectDetails2 = () => {
     const details2 =
     {
 
-        name: "Order For Food",
+        name: "Order For Foodie",
         technology: "React, JavaScript, TailwindCSS, Firebase Authentication, NodeJs, ExpressJs, MongoDB, Heroku. ",
         img: " https://i.ibb.co/ThRB5Cc/Screenshot-34.png",
         gitlink: "https://github.com/mariaafahad/order-for-foodie",
